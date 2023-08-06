@@ -29,6 +29,9 @@
     "type": "git",
     "url": "https://github.com/tianfeng98/web-tokenizer"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "@types/node": "^20.4.7",
     "@types/path-browserify": "^1.0.0",
