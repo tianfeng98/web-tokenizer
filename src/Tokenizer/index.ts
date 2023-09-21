@@ -90,6 +90,10 @@ class Tokenizer {
       }
     });
   }
+
+  destroy() {
+    // this.worker.terminate()
+  }
 }
 
 export default Tokenizer;

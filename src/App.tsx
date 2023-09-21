@@ -29,7 +29,7 @@ function App() {
       /**
        * 使用共享Worker
        */
-      // workerType: "share",
+      workerType: "share",
       workersPath: "/workers",
       onInit() {
         setLoading(false);

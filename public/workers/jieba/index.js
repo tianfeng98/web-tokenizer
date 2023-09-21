@@ -20,7 +20,7 @@ const exec = (_ = self) => {
   };
 
   /**
-   * 此处可在家其他模型
+   * 此处可再加载其他模型
    */
   Promise.all([jiebaInit()]).then(() => {
     postStatus(true);
